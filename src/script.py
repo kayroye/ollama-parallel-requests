@@ -2,7 +2,7 @@ import requests
 import json
 from tqdm import tqdm
 
-def main():
+def jsonl(inputFile, outputFile, MODEL):
     MODEL = "deepseek-r1:70b"
     
     print("[%s][JSONL] Running..." % (MODEL))
